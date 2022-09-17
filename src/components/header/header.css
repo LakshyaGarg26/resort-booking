@@ -33,6 +33,12 @@
     padding: 10px;
     border-radius: 20px;
   }
+
+  .headerListItem.active:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #003580;
+  }
   
   .headerDesc {
     margin: 20px 0px;

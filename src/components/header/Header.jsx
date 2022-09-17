@@ -59,19 +59,19 @@ import {
               <FontAwesomeIcon icon={faBed} />
               <span>Stays</span>
             </div>
-            <div className="headerListItem">
+            <div className="headerListItem active">
               <FontAwesomeIcon icon={faPlane} />
               <span>Flights</span>
             </div>
-            <div className="headerListItem">
+            <div className="headerListItem active">
               <FontAwesomeIcon icon={faCar} />
               <span>Car rentals</span>
             </div>
-            <div className="headerListItem">
+            <div className="headerListItem active">
               <FontAwesomeIcon icon={faBed} />
               <span>Attractions</span>
             </div>
-            <div className="headerListItem">
+            <div className="headerListItem active">
               <FontAwesomeIcon icon={faTaxi} />
               <span>Airport taxis</span>
             </div>
