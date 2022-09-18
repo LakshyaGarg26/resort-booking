@@ -9,7 +9,7 @@ import "./Home.css"
 
 const Home = () => {
     return (
-        <div>
+        <div className="gridContainer"  >
             <Navbar />
             <Header />
             <div className="homeContainer">
