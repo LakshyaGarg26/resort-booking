@@ -17,9 +17,17 @@
     font-weight: 500;
 }
 .navButton{
+    font-size: 14px;
+    font-weight: 700;
     margin-left: 20px;
     border:none;
+    border-radius: 10px;
     padding: 5px 10px;
-    cursor: pointer;
     color: #003580;
+}
+.navButton:hover{
+    cursor: pointer;
+    background-color: #0071c2;
+    color: white;
+
 }
