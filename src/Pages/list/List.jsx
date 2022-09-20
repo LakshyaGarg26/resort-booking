@@ -6,6 +6,7 @@ import { useState } from "react";
 import { format } from "date-fns";
 import { DateRange } from "react-date-range";
 import SearchItem from "../../components/searchItem/SearchItem";
+import Weather from "../../components/weather/Weather.jsx"
 
 const List = () => {
   const location = useLocation();
@@ -86,6 +87,7 @@ const List = () => {
             </div>
             <button>Search</button>
           </div>
+          
           <div className="listResult">
             <SearchItem />
             <SearchItem />
@@ -97,7 +99,11 @@ const List = () => {
             <SearchItem />
             <SearchItem />
           </div>
+          
         </div>
+        <div className="weather">
+            <Weather />
+          </div>
       </div>
     </div>
   );

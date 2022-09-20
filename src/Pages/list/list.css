@@ -25,6 +25,11 @@
     height: max-content;
   }
   
+  .weather{
+    padding-left: 20px;
+    position: sticky;
+  }
+
   .lsTitle{
     font-size: 20px;
     color: #555;
