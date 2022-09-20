@@ -1,7 +1,7 @@
 import "./propertyList.css";
 import Apartments from "../../assets/Apartments.jpg"
 import Cabins from "../../assets/Cabins.jpg"
-import Hotels from "../../assets/Hotels.webp"
+import Hotels from "../../assets/Hotels.jpg"
 import Resorts from "../../assets/Resorts.jpg"
 import Villas from "../../assets/Villas.jpg"
 

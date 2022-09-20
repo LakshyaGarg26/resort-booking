@@ -1,5 +1,5 @@
 import "./featuredProperties.css";
-import AparthotelStareMiasto from "../../assets/Aparthotel Stare Miasto.webp"
+import AparthotelStareMiasto from "../../assets/Aparthotel Stare Miasto.jpg"
 import ComfortSuitesAirport from "../../assets/Comfort Suites Airport.jpg"
 import FourSeasonsHotel from "../../assets/Four Seasons Hotel.jpg"
 import HiltonGardenInn from "../../assets/Hilton Garden Inn.jpg"

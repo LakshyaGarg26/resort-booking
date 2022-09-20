@@ -1,7 +1,7 @@
 import "./featured.css";
-import Dublin from "../../assets/Dublin.webp"
-import Austin from "../../assets/Austin.webp"
-import Reno from "../../assets/Reno.webp"
+import Dublin from "../../assets/Dublin.jpg"
+import Austin from "../../assets/Austin.jpg"
+import Reno from "../../assets/Reno.jpg"
 
 const Featured = () => {
   return (

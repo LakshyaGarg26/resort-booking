@@ -1,6 +1,6 @@
 import "./searchItem.css";
 import { useNavigate } from "react-router-dom";
-import TowerStreetApartments from "../../assets/Tower Street Apartments.webp"
+import TowerStreetApartments from "../../assets/Tower Street Apartments.jpg"
 
 const SearchItem = () => {
 
