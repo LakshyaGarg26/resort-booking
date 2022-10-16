@@ -9,7 +9,7 @@ const Weather = () => {
   const [search, setSearch] = useState(location.state.destination);
   useEffect(() => {
     const fetchApi = async () => {
-      const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metrics&appid=7f5a79162b152044e6fca1541703d6c0`;
+      const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=7f5a79162b152044e6fca1541703d6c0`;
       const response = await fetch(url);
       const resJson = await response.json();
       setCity(resJson.main);
@@ -30,10 +30,10 @@ const Weather = () => {
                 {search}
               </h2>
               <h1 className="temp">
-                {city.temp} Kelvin
+                {city.temp}°C
                 <h3 className="tempmin_max">
-                  Min :{city.temp_min} Kelvin <br />
-                  Max : {city.temp_max} Kelvin
+                  Min :{city.temp_min}°C <br />
+                  Max : {city.temp_max}°C
                 </h3>
               </h1>
             </div>
